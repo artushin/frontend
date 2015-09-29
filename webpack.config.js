@@ -67,9 +67,6 @@ module.exports = {
             }, {
                 test: /\.(png|jpg)$/,
                 loader: 'url-loader?limit=8192'
-            }, {
-                test: /\.(otf|eot|png|svg|ttf|woff|woff2)(\?3ocs8m|\?#iefix3ocs8m|\?3ocs8m#Material-Design-Icons)?$/,
-                loader: 'url-loader?limit=8192'
             }
         ]
     }
