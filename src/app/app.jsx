@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import Main from './components/Main'; // Our custom react component
 
+import 'normalize.css/normalize.css'
+
 //Needed for onTouchTap
 //Can go away when react 1.0 release
 //Check this repo:
